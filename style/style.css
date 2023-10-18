@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    max-width: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2px;
+    box-shadow: 0 0 5px 0 purple;
+}
+
+.item {
+    width: 15px;
+    height: 15px;
+    background: rgb(45, 45, 45);
+    transition: 2s;
+}
+
+.item:hover {
+    transition-duration: 0ms;
+}
